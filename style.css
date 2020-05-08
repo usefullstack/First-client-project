@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+
+   /* #a5e65a*/
+  }
+  html{
+      scroll-behavior: smooth;
+     
+  }
+  body{
+      background-image: url("svgs/back.svg");
+      background-repeat: no-repeat;
+      background-position: top;
+      width: 100%;
+    
+  }
+  #toggler-icon{
+      outline: none;
+  }
+.row{
+    margin-top: 30px;
+}
+#hover-lenght:hover{
+    color: #a5e65a;
+    transition: 0.7s;
+   
+}
+#navbarDropdown:hover{
+    color: #a5e65a;
+    transition: 0.3s;
+}
+
+#cards-shadow{
+    box-shadow: 2px 5px 10px #c2c2c2d2;
+}
+#details{
+    margin-top:20px;
+    border-color: white;
+    
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+#game-details{
+    position: relative;
+}
+/*THIS IS ONLY FOR MEDIA QUERIES*/
+@media only screen and (max-width: 600px) {
+    #elem{
+        margin-top:20px;
+      }
+      #ele .foot-ele{
+        margin-top: 8px;
+      }
+      #my-naver{
+        margin-top: 15px;
+
+      }
+      #my-img{
+        margin-top:5px;
+      }
+      #foot-master{
+        margin-bottom: 0px;
+      }
+      
+  }
+  
+  
+
+
+/*Only FOOTER will BE HERE  Don't ERASE IT*/
+/*Only FOOTER will BE HERE  Don't ERASE IT*/
+/*Only FOOTER will BE HERE  Don't ERASE IT*/
+#my-naver{
+    color: white;
+}
+#foot-master{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+.footing{
+    background-image: url("svgs/footer.svg");
+    background-repeat: no-repeat;
+      background-position: bottom;
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      height: 100%;
+     
+}
+
+  #ele .linkin{
+   text-decoration: none;
+   color: #7b8b8e;
+   display: block;
+   font-size: 15px;
+   line-height: 30px;
+  }
+  #elem .linkin{
+    text-decoration: none;
+    color: #7b8b8e;
+    font-size: 23px;
+   }
+  #elem .linkin:hover{
+     color: #87c80a;
+     transition: 0.7s;
+   }
+   #ele .linkin:hover{
+    color: white;
+    transition: 0.7s;
+  }
+   #ele #member:hover{
+     color:white;
+     transition: 0.7s;
+   }
+   #ele #member #mem:hover{
+     color: white;
+     background-color: #87c80a;
+     transition: 0.7s;
+   }
+  
+  #ele #linker:hover{
+    color: white;
+  }
+  
+  
